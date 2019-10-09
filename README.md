@@ -15,8 +15,7 @@ The goal of vtkr is to read data from files in [Visualization Toolkit
 format](https://en.wikipedia.org/wiki/VTK).
 
 Currently very much in-development, but in time we can read in these
-models as rgl mesh forms. I don’t know any other VTK reader that’s of
-use to R. If you do please let me know\!
+models as rgl mesh forms.
 
 The format is describe at these sites:
 
@@ -24,6 +23,17 @@ The format is describe at these sites:
     examples in ASCII)
   - <https://lorensen.github.io/VTKExamples/site/VTKFileFormats/>
   - <https://vtk.org/wp-content/uploads/2015/04/file-formats.pdf>
+
+## Other VTK readers for R
+
+I don’t know many VTK readers that’s of use to R. If you do please let
+me know\!
+
+One is by Chris Black:
+
+  - <https://gitlab.com/LynchLab/simrootR/blob/vtu_reader/R/vtu.R>
+
+Should also check this out: <https://github.com/Chrismarsh/mesher>
 
 ## TODO
 

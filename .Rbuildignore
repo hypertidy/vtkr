@@ -1,7 +1,7 @@
 ^vtkr\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
-^VTK_examples$
+^EXAMPLES$
 ^README\.Rmd$
 ^CODE_OF_CONDUCT\.md$
 ^\.travis\.yml$
