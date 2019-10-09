@@ -14,9 +14,16 @@ status](https://ci.appveyor.com/api/projects/status/github/hypertidy/vtkr?branch
 The goal of vtkr is to read data from files in [Visualization Toolkit
 format](https://en.wikipedia.org/wiki/VTK).
 
-Currently very WIP, but in time we can read in these models as rgl mesh
-forms. I don’t know any other VTK reader that’s of use to R. If you do
-please let me know\!
+Currently very much in-development, but in time we can read in these
+models as rgl mesh forms. I don’t know any other VTK reader that’s of
+use to R. If you do please let me know\!
+
+The format is describe at these sites:
+
+  - <https://people.sc.fsu.edu/~jburkardt/data/vtk/vtk.html> (has
+    examples in ASCII)
+  - <https://lorensen.github.io/VTKExamples/site/VTKFileFormats/>
+  - <https://vtk.org/wp-content/uploads/2015/04/file-formats.pdf>
 
 ## TODO
 
