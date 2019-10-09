@@ -20,12 +20,15 @@ knitr::opts_chunk$set(
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/hypertidy/vtkr?branch=master&svg=true)](https://ci.appveyor.com/project/hypertidy/vtkr)
 <!-- badges: end -->
 
-The goal of vtkr is to read data files in [Visualization Toolkit format](https://en.wikipedia.org/wiki/VTK). 
+The goal of vtkr is to read data from files in [Visualization Toolkit format](https://en.wikipedia.org/wiki/VTK). 
+
+Currently very WIP, but in time we can read in these models as rgl mesh forms. I don't know any other VTK reader
+that's of use to R. If you do please let me know!
 
 ## TODO
 
 * DONE Basic example read
-* Support the structure points in ASCII form
+* Support the structured points in ASCII form
 * Support the triangles in BINARY form
 * Get out the triangle CELLS attributes
 * Generalize the functions to read header, points-only, detect format, etc. 
