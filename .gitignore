@@ -1,0 +1,4 @@
+VTK_examples
+.Rproj.user
+inst/extdata/UNSTRUCTURED_GRID/*
+!inst/extdata/UNSTRUCTURED_GRID/rbc_001.vtk
